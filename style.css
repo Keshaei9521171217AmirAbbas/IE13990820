@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Nazanin';
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.eot?#iefix') format('embedded-opentype'),
+		 url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.woff') format('woff'),
+		 url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Mitra';
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Mitra/Mitra-Bold.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Mitra/Mitra-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('https://cdn.fontcdn.ir/Font/Persian/Mitra/Mitra-Bold.woff') format('woff'),
+		 url('https://cdn.fontcdn.ir/Font/Persian/Mitra/Mitra-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+
+
+html{
+	background: #000000
+}
+
+body{
+	display: grid;
+	grid-template-rows: 60px 1fr;
+}
+
+footer{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	width: auto;
+	height: 100px;
+	justify-items: center;
+	background: white;
+	border-radius: 30px;
+	margin-top: 10px;
+}
+
+header{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	justify-items: center;
+	border-radius: 100px;
+	background: #9E9E9E;
+}
+
+h2{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Mitra;
+}
+
+h3{
+	text-align: center;
+	font-family: Mitra;
+}
+
+li{
+	color: #FFFFFF;
+	text-align: right;
+	font-family: Nazanin;
+	direction: rtl;
+}
+
+a{
+	color: aliceblue;
+	font-family: Nazanin;
+	font-weight: bold;
+}
+
+
+.imageBox{
+	width: 30px;
+	height:  30px;
+	align-items: center;
+	padding: 15px;
+}
+
+.main_column{
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	grid-template-rows: repeat(10, min-content);
+	margin-top: 10px;	
+}
+
+.main_column_center{
+	background: #666666;
+	height: auto;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.main_column_right{
+	height: auto;
+	border-style: solid;
+	border-color: aliceblue;
+	margin-left: 10px;
+	padding-left: 20px;
+	padding-right: 30px;
+	border-radius: 10px 30px 30px 10px
+}
+
+.main_column_left{	
+    height: auto;
+	border-style: solid;
+	border-color: aliceblue;
+	margin-right: 10px;
+	padding-left: 20px;
+	padding-right: 30px;
+	border-radius: 30px 10px 10px 30px
+}
+
+.footer_item{
+	text-align: center;
+	font-family: Mitra;
+	direction: rtl;
+}
+
+.subtile-flex-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+
+}
+
+.subtitle{
+	border-radius: 30px;
+	background-color: #838383;
+	background-color: #838383;
+	width: auto;
+	height: auto;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	margin: 10px;
+	padding: 1%;
+	vertical-align: top;
+}
+
+.subtitle:hover{
+	background-color: #000000;
+}
+
+.subtitle_header{
+	color: gold;
+}
+
+.subtitle_paragragh{
+	color: white;
+	font-family: Nazanin
+}
+
+#main_text{
+	font-family: Nazanin;
+	color: white;
+	direction: rtl;
+}
+
+.bold{
+	font-weight: bold;
+	font-style: italic;
+	color: aqua
+}
+
+.link{
+	font-family: Mitra;
+	text-align: center;
+	color: aqua;
+	background-color: #414040;
+	border-radius: 20px;
+  	padding: 14px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+}
+.main_paragragh {
+	color: white;
+	font-family: Nazanin;
+	direction: rtl;
+}
